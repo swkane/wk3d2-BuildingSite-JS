@@ -47,3 +47,13 @@ img {
   margin: 5px;
   text-transform: capitalize;
 }
+
+.ssn {
+   color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+.ssn:hover {
+  color: green;
+  text-shadow: none;
+}

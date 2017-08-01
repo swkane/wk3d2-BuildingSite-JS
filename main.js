@@ -14,7 +14,7 @@ for (let i = 0; i < customers.results.length; i++) {
       <p class="address">${results.location.street}</p>
       <p class="address">${results.location.city}, ${results.location.state} ${results.location.postcode}</p>
       <p class="address">${results.phone}</p>
-      <p class="id">${results.id.value}</p>
+      <p class="ssn">${results.id.value}</p>
     </div>
   `;
 
